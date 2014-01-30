@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua51", "lua51\lua51.vcxproj", "{1CC05FE7-E130-40DC-ABBD-AF64C4C4DE46}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luajit51", "luajit51\luajit51.vcxproj", "{98A21AAB-4002-46BA-B2BC-374AFFFC4B7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua_standalone", "lua_standalone\lua_standalone.vcxproj", "{9B4A234D-15E4-426A-B056-ABC78AED53CE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98A21AAB-4002-46BA-B2BC-374AFFFC4B7A} = {98A21AAB-4002-46BA-B2BC-374AFFFC4B7A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CC05FE7-E130-40DC-ABBD-AF64C4C4DE46}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1CC05FE7-E130-40DC-ABBD-AF64C4C4DE46}.Debug|Win32.Build.0 = Debug|Win32
+		{1CC05FE7-E130-40DC-ABBD-AF64C4C4DE46}.Release|Win32.ActiveCfg = Release|Win32
+		{98A21AAB-4002-46BA-B2BC-374AFFFC4B7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98A21AAB-4002-46BA-B2BC-374AFFFC4B7A}.Release|Win32.ActiveCfg = Release|Win32
+		{98A21AAB-4002-46BA-B2BC-374AFFFC4B7A}.Release|Win32.Build.0 = Release|Win32
+		{9B4A234D-15E4-426A-B056-ABC78AED53CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9B4A234D-15E4-426A-B056-ABC78AED53CE}.Debug|Win32.Build.0 = Debug|Win32
+		{9B4A234D-15E4-426A-B056-ABC78AED53CE}.Release|Win32.ActiveCfg = Release|Win32
+		{9B4A234D-15E4-426A-B056-ABC78AED53CE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
