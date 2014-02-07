@@ -41,7 +41,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>..\..\bin\$(PlatformToolset)_$(Platform)_$(Configuration)\</OutDir>
     <IntDir>..\..\obj\</IntDir>
-    <IncludePath>..\..\lua51\include\;$(IncludePath)</IncludePath>
+    <IncludePath>..\..\luajit51\src\;$(IncludePath)</IncludePath>
     <LibraryPath>..\..\bin\$(PlatformToolset)_$(Platform)_$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

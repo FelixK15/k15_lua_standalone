@@ -1,3 +1,8 @@
 bin/
 luajit51/obj/
 obj/
+*.sdf
+*.exp
+*.dll
+*.lib
+*.exe
