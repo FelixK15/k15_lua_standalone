@@ -21,3 +21,4 @@ Lua scripts when the LuaJIT runtime is used.
 ### Future plans ###
 
 * Let the user specify what Lua file to run instead of always running './lua/main.lua'
+* Adding CMake build files
