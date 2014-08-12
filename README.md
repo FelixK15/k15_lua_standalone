@@ -22,3 +22,31 @@ Lua scripts when the LuaJIT runtime is used.
 
 * Let the user specify what Lua file to run instead of always running './lua/main.lua'
 * Adding CMake build files
+
+### Windows Example of using lua-standalone ###
+
+The following Lua script (main.lua):
+
+```
+#!lua
+
+function main(args)
+ printf("running lua-standalone example!")
+ for i, arg in ipairs(args) do
+  print("Argument " .. i .. ". : " .. arg")
+ end
+ printf("finished running lua-standalone example!")
+end
+```
+
+will produce the following output if it is placed in './lua/'
+
+```
+#!
+lua-standalone.exe totally a test
+ running lua-standalone example!
+ Argument 1. totally
+ Argument 2. a
+ Argument 3. test
+ finished running lua-standalone example!
+```
