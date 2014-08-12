@@ -31,11 +31,11 @@ The following Lua script (main.lua):
 #!lua
 
 function main(args)
- printf("running lua-standalone example!")
+ print("running lua-standalone example!")
  for i, arg in ipairs(args) do
   print("Argument " .. i .. ". : " .. arg)
  end
- printf("finished running lua-standalone example!")
+ print("finished running lua-standalone example!")
 end
 ```
 
