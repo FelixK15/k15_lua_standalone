@@ -33,7 +33,7 @@ The following Lua script (main.lua):
 function main(args)
  printf("running lua-standalone example!")
  for i, arg in ipairs(args) do
-  print("Argument " .. i .. ". : " .. arg")
+  print("Argument " .. i .. ". : " .. arg)
  end
  printf("finished running lua-standalone example!")
 end
@@ -42,11 +42,11 @@ end
 will produce the following output if it is placed in './lua/'
 
 ```
-#!
-lua-standalone.exe totally a test
+#!bash
+
+lua-standalone.exe totally awesome
  running lua-standalone example!
- Argument 1. totally
- Argument 2. a
- Argument 3. test
+ Argument 1. : totally
+ Argument 2. : awesome
  finished running lua-standalone example!
 ```
