@@ -22,6 +22,7 @@ Lua scripts when the LuaJIT runtime is used.
 
 * Let the user specify what Lua file to run instead of always running './lua/main.lua'
 * Adding CMake build files
+* Provide pre-build executables
 
 ### Windows Example of using lua-standalone ###
 
